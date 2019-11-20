@@ -1,6 +1,10 @@
 /* Use this TEAL color for headings and backgrounds #411115 */
 
 /* Regular FONT color for all paragraphs #777777 */
+p {
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Main HEADER BACKGROUND color #ffffff */
 
@@ -18,16 +22,19 @@
 
 /* ALL OTHER FONTS, 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
 
-/* Footer CSS, border-top: 8px solid #4aaaa5; */
 
-/* Look into these concepts: float, padding, margin, display, overflow, clear and text-align. */
 
-/* */
-
-body{
-    background-image: ../images/folk-pattern.png;
+/* Footer should be sticky. Footer CSS should include- border-top: 8px solid #4aaaa5; */
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
 }
 
 
+/* Look into these concepts: float, padding, margin, display, overflow, clear and text-align. */
 
 
