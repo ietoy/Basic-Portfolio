@@ -89,6 +89,10 @@ h1 {
     align-content: center;
 }
 
+.top {
+    top: 0;
+}
+
 .navButton {
     padding: 20px;
 }
