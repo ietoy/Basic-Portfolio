@@ -11,7 +11,7 @@ p, a {
 
 /* Main HEADER BORDER color #cccccc */
 
-/* FOOTER BACKGROUND color #666666 */
+
 
 /* MAIN CONTENT BACKGROUND color #ffffff */
 
@@ -26,7 +26,6 @@ h1, h2, h3 {
 
 
 /* This section of code is for the fixed navigation bar */
-
 header {
     position: fixed;
     top: 0;
@@ -37,6 +36,8 @@ header {
     border-color: #cccccc;
 }
 
+
+/* FOOTER BACKGROUND color #666666 */
 /* Footer should be sticky. Footer CSS should include- border-top: 8px solid #4aaaa5; */
 footer {
     position: fixed;
@@ -49,6 +50,8 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
+
+
 
 img {
     margin-left: 20px;
@@ -69,10 +72,21 @@ img {
 /* This section is formating my name as its displayed in the navigation bar */
 h1 {
     color: white;
-    background-color: #4aaaa5}
+    background-color: #4aaaa5;
+    padding: 20px;
+    border: #ffffff;
+
 }
 
+.navLink {
+    padding: 20px;
+}
 
+body {
+    width: 960px;
+    align-content: center;
+    border: 5px #dddddd;
+}
 
 
 
