@@ -6,26 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 
 <body>
 
 <!--This section is going to be the navigation bar.-->
     <div>
-        <header>
-        
-            <h1 id="left"><strong>Ian Toy</strong></h1>
+        <header id=navBar>
+            <div class="wrapper">
+                <h1 id="left"><strong>Ian Toy</strong></h1>
 
-                <a id="right" class="navLink" href="index.html">About</a>
+                    <a id="right" class="navButton" href="index.html">About</a>
 
-                <a id="right" class="navLink" href="portfolio.html">Portfolio</a>
+                    <a id="right" class="navButton" href="portfolio.html">Portfolio</a>
 
-                <a id="right" class="navLink" href="contact.html">Contact</a>
-
+                    <a id="right" class="navButton" href="contact.html">Contact</a>
+            </div>
         </header>
     </div>
 
-    <div>
+<!--This is my poor-man's solution to keeping the nav bar from covering the top of the content. Replace with smarter code later.-->
+    <div class="wrapper" id="container">
 
         <br>
         <br>
@@ -44,7 +46,8 @@
             src="assets/images/profile-pic.jpg" 
             width="200px" 
             height="200px" 
-            alt="Ian's Profile Picture">
+            alt="Ian's Profile Picture";
+            >
 
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta felis et scelerisque tempus. Pellentesque consectetur metus et nibh ullamcorper pellentesque. Etiam ut varius dolor. Nam pellentesque ligula nec erat tempus sagittis. Nulla quis metus eget libero dapibus egestas ut sit amet ligula. Maecenas laoreet ut est id placerat. Vivamus interdum lorem turpis, a ultrices justo dignissim vel. Suspendisse potenti.
