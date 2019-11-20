@@ -1,37 +1,32 @@
-/* Use this TEAL color for headings and backgrounds #4aaaa5 */
+body {
+    background-image: url(../images/folk-pattern.png);
+}
 
-/* Regular FONT color for all paragraphs #777777 */
-/* ALL OTHER FONTS, 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+
+
+
+
 p, a {
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Main HEADER BACKGROUND color #ffffff */
-/* Main HEADER BORDER color #cccccc */
-/* MAIN CONTENT BACKGROUND color #ffffff */
-/* MAIN CONTENT BORDER color #dddddd */
 
-/* HEADING FONTS, font-family: 'Georgia', Times, 'Times New Roman', serif; */
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-/* This section of code is for the fixed navigation bar */
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    height: 50px;
+    height: 98px;
     border-color: #cccccc;
 }
 
-
-/* FOOTER BACKGROUND color #666666 */
-/* Footer should be sticky. Footer CSS should include- border-top: 8px solid #4aaaa5; */
 footer {
     position: fixed;
     bottom: 0;
@@ -48,6 +43,8 @@ footer {
 img {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 #left {
@@ -62,39 +59,42 @@ img {
 h1 {
     color: white;
     background-color: #4aaaa5;
-    padding: 20px;
     border: #ffffff;
-
+    padding: 20px;
+    margin: 0 20 0;
 }
 
-#navBar {
-    border-style: solid;
-    border-width: 10px;
-    border-color: #cccccc;
-
-
+h2 {
+    color: #4aaaa5;
 }
 
-#container {
+
+.container {
     width: 960px;
-    border: 5px #dddddd;
+    background: #ffffff;
+    border: 10px #dddddd;
+    padding: 20px;
+    margin: 20px;
     align-content: center;
+    height: fit-content;
 }
 
 .wrapper {
     width: 960px;
-    padding: 20px;
+    padding: 0;
     margin: 0 auto;
     border: #dddddd;
     align-content: center;
 }
 
-.top {
-    top: 0;
+.contentmargin {
+    margin: 20px;
 }
 
 .navButton {
-    padding: 20px;
+    border: #ffffff;
+    padding: 10px;
+    margin: 10px;
 }
 
 
