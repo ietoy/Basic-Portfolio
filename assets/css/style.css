@@ -2,9 +2,10 @@ body {
     background-image: url(../images/folk-pattern.png);
 }
 
-p, a {
+p, a, form {
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
 }
 
 h1, h2, h3 {
@@ -139,15 +140,24 @@ h2 {
 }
 
 
+div.icon-label {
+    background: #4aaaa5;
+    width: 220px;
+    color: #ffffff;
+    padding: 20px 0px;
+    margin-left: -10px;
+    position: static;
+    bottom: 10px;
+}
 
+label {
+    font-size: 20px;
+}
 
-
-
-
-
-
-
-
+input {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
 
 
 
