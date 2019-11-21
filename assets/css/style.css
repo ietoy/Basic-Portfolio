@@ -76,7 +76,6 @@ h2 {
     padding: 0;
     margin: 0 auto;
     border: #dddddd;
-    align-content: center;
 }
 
 .contentmargin {
@@ -90,36 +89,54 @@ h2 {
 }
 
 /* These classes help define the elements on the Portfolio page */
-
-/* img { */
-    /* height: 100px; */
-    /* width: 250px; */
-    /* padding: 10px; */
-    /* margin: 10px; }*/
-
-
-    /*revisit the solved box placements from 11/20 to get the name of the link to lay over the image */
+/*revisit the solved box placements from 11/20 to get the name of the link to lay over the image */
 .box {
-    height: 150px;
-    width: 200x;
-    position: relative;
+    
+    text-align: center;
+    height: 200px;
     padding: 10px;
-    margin: 10px;
+    border: 2px solid #dddddd;
 }
 
+#cartman {
+    background-image: url(../images/cartman.jpg);
+    width: 200px;
+}
 
+#mouse {
+    background-image: url(../images/mouse.jpg);
+    width: 200px;
+}
 
+#hangman {
+    background-image: url(../images/hangman.jpg);
+    width: 200px;
+}
 
+#rpg {
+    background-image: url(../images/rpg-icon.jpg);
+    width: 200px;
+}
 
+#trivia {
+    background-image: url(../images/trivia-icon.jpeg);
+    width: 200px;
+}
 
+#rutgers {
+    background-image: url(../images/rutgers-icon.jpg);
+    width: 200px;
+}
 
+#rps {
+    background-image: url(../images/rps.jpg);
+    width: 200px;
+}
 
-
-
-
-
-
-
+#stream {
+    background-image: url(../images/stream-icon.jpg);
+    width: 200px;
+}
 
 
 
