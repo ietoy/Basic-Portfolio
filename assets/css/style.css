@@ -2,20 +2,14 @@ body {
     background-image: url(../images/folk-pattern.png);
 }
 
-
-
-
-
 p, a {
     color:#777777;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 header {
     position: fixed;
@@ -39,19 +33,18 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-
-img {
+#profPic {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
     margin-top: 0px;
 }
 
-#left {
+.left {
     float: left;
 }
 
-#right {
+.right {
     float: right;
 }
 
@@ -67,7 +60,6 @@ h1 {
 h2 {
     color: #4aaaa5;
 }
-
 
 .container {
     width: 960px;
@@ -97,6 +89,61 @@ h2 {
     margin: 10px;
 }
 
+/* These classes help define the elements on the Portfolio page */
+
+/* img { */
+    /* height: 100px; */
+    /* width: 250px; */
+    /* padding: 10px; */
+    /* margin: 10px; }*/
 
 
-/* Look into these concepts: float, padding, margin, display, overflow, clear and text-align. */
+    /*revisit the solved box placements from 11/20 to get the name of the link to lay over the image */
+.box {
+    height: 150px;
+    width: 200x;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
