@@ -23,14 +23,63 @@ If you like what you see, please send me an email with any questions you may hav
 * [Javascript]
 
 ## Under the Hood
-Below are a few screenshots of techniques I used to create the site you see now.
+Below are a few code snippets illustrating techniques I used to create the portfolio page.
 
-### Screenshot 1
+### Snippet 1: HTML div container etc.
+    <div class="container wrapper">
+                <div class="contentmargin">
+                        <h2>
+                                <strong>
+                                Portfolio
+                                </strong>
+                        </h2>
+                                <hr>
 
-### Screenshot 2
+Above is the code used to define the container of the content on the portfolio page. The classes container, wrapper, and content margin establish the presentation of the content within the white background above the folk-art backdrop.
 
-### Screenshot 3
+### Snippet 2: HTML Anchor Tags Displayed as Tiles
 
+<div>
+    <a class="left" href="https://scratch.mit.edu/projects/341915412/" target="_blank">
+        <img class="tile" src="../basic-portfolio/assets/images/cartman.jpg">
+            <div class="tile">
+            Cheesy Poofs
+            </div>
+        </a>
+</div>
+
+Here is an example of one of the eight anchor tags used to creat the tile links. Each element floats left, is linked to a project, and opens in another tab when clicked. The classes img.tile and div.tile define the shape, dimensions, border, and text banner of each of the tiles. These css elements can also be seen in the next code snippet.
+
+### Snippet 3: CSS Classes Used to Create the Portfolio Tiles
+
+img.tile {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #dddddd;
+    margin: 10px;
+    position: relative;
+}
+
+div.tile {
+    background: #4aaaa5;
+    width: 200px;
+    padding: 10px 0px;
+    color: #ffffff;
+    text-align: center;
+    left: 12px;
+    position: relative;
+    bottom: 80px;
+}
+
+.contentmargin::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+This snippet shows the full list of properties and values used to define the classes that created the linked tiles. The img.tile class gives the dimensions of the image, while the div.tile class styles the text banner that rests at the bottom of the image.
+
+Because all of the images use the float:left positioning, a clearfix hack has been applied to the lowest parent element class, contentmargin. This allows the white background to extend low enough to include all of the link tiles.
 
 ## Deployed Link
 
