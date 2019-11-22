@@ -39,25 +39,25 @@ Above is the code used to define the container of the content on the portfolio p
 
 ### Snippet 2: HTML Anchor Tags Displayed as Tiles
 
-<div>
-    <a class="left" href="https://scratch.mit.edu/projects/341915412/" target="_blank">
-        <img class="tile" src="../basic-portfolio/assets/images/cartman.jpg">
-            <div class="tile">
-            Cheesy Poofs
-            </div>
+    <div>
+        <a class="left" href="https://scratch.mit.edu/projects/341915412/" target="_blank">
+           <img class="tile" src="../basic-portfolio/assets/images/cartman.jpg">
+              <div class="tile">
+              Cheesy Poofs
+              </div>
         </a>
-</div>
+    </div>
 
 Here is an example of one of the eight anchor tags used to creat the tile links. Each element floats left, is linked to a project, and opens in another tab when clicked. The classes img.tile and div.tile define the shape, dimensions, border, and text banner of each of the tiles. These css elements can also be seen in the next code snippet.
 
 ### Snippet 3: CSS Classes Used to Create the Portfolio Tiles
 
-img.tile {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #dddddd;
-    margin: 10px;
-    position: relative;
+    img.tile {
+        height: 200px;
+        width: 200px;
+        border: 2px solid #dddddd;
+        margin: 10px;
+        position: relative;
 }
 
 div.tile {
