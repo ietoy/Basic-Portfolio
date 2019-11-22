@@ -58,24 +58,24 @@ Here is an example of one of the eight anchor tags used to creat the tile links.
         border: 2px solid #dddddd;
         margin: 10px;
         position: relative;
-}
+    }
 
-div.tile {
-    background: #4aaaa5;
-    width: 200px;
-    padding: 10px 0px;
-    color: #ffffff;
-    text-align: center;
-    left: 12px;
-    position: relative;
-    bottom: 80px;
-}
+    div.tile {
+        background: #4aaaa5;
+        width: 200px;
+       padding: 10px 0px;
+        color: #ffffff;
+       text-align: center;
+       left: 12px;
+      position: relative;
+      bottom: 80px;
+    }
 
-.contentmargin::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+    .contentmargin::after {
+       content: "";
+       clear: both;
+      display: table;
+    }
 
 This snippet shows the full list of properties and values used to define the classes that created the linked tiles. The img.tile class gives the dimensions of the image, while the div.tile class styles the text banner that rests at the bottom of the image.
 
