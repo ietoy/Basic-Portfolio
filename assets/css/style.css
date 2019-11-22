@@ -1,5 +1,7 @@
+/* body {background-image: url(../images/folk-pattern.png);} */
+
 body {
-    background-image: url(../images/folk-pattern.png);
+    background: gray;
 }
 
 p, a, form {
@@ -14,11 +16,12 @@ h1, h2, h3 {
 
 header {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    height: 98px;
+    height: auto;
     border-color: #cccccc;
 }
 
@@ -54,12 +57,14 @@ h1 {
     color: white;
     background-color: #4aaaa5;
     border: #ffffff;
-    padding: 20px;
-    margin: 0 20 0;
+    padding: 10px 20px 10px;
+    margin: 0px 20px 0px;
 }
 
 h2 {
     color: #4aaaa5;
+    margin-top: 20px;
+
 }
 
 .container {
@@ -67,9 +72,10 @@ h2 {
     background: #ffffff;
     border: 10px #dddddd;
     padding: 20px;
-    margin: 20px;
     align-content: center;
     height: fit-content;
+    position: relative;
+    top: 100px;
 }
 
 .wrapper {
@@ -91,67 +97,43 @@ h2 {
 
 /* These classes help define the elements on the Portfolio page */
 /*revisit the solved box placements from 11/20 to get the name of the link to lay over the image */
-.box {
-    
-    text-align: center;
-    height: 200px;
-    padding: 10px;
-    border: 2px solid #dddddd;
-}
 
 #cartman {
-    background-image: url(../images/cartman.jpg);
-    width: 200px;
+    
 }
 
 #mouse {
-    background-image: url(../images/mouse.jpg);
-    width: 200px;
+    left: 250px;
 }
 
 #hangman {
-    background-image: url(../images/hangman.jpg);
-    width: 200px;
+
 }
 
 #rpg {
-    background-image: url(../images/rpg-icon.jpg);
-    width: 200px;
+
 }
 
 #trivia {
-    background-image: url(../images/trivia-icon.jpeg);
-    width: 200px;
+
 }
 
 #rutgers {
-    background-image: url(../images/rutgers-icon.jpg);
-    width: 200px;
+
 }
 
 #rps {
-    background-image: url(../images/rps.jpg);
-    width: 200px;
+
 }
 
 #stream {
-    background-image: url(../images/stream-icon.jpg);
-    width: 200px;
+
 }
 
-
-div.icon-label {
-    background: #4aaaa5;
-    width: 220px;
-    color: #ffffff;
-    padding: 20px 0px;
-    margin-left: -10px;
-    position: static;
-    bottom: 10px;
-}
 
 label {
     font-size: 20px;
+    border: 2px #dddddd;
 }
 
 input {
@@ -160,17 +142,44 @@ input {
 }
 
 
+button {
+    color: white;
+    background-color: #4aaaa5;
+    border: #ffffff;
+    width: 200px;
+    padding: 10px 20px 10px;
+    margin: 20px 20px 40px 0px;
 
+}
 
+/* These are the classes currently used to style the tiles on the portfolio page. */
+img.tile {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #dddddd;
+    margin: 10px;
+    position: relative;
+}
+div.tile {
+    background: #4aaaa5;
+    width: 200px;
+    padding: 10px 0px;
+    color: #ffffff;
+    text-align: center;
+    left: 12px;
+    position: relative;
+    bottom: 80px;
+}
 
+.container2 {
 
+}
 
-
-
-
-
-
-
+.contentmargin::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 
