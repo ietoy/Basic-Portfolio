@@ -35,11 +35,11 @@ Below are a few screenshots of techniques I used to create the site you see now.
 ## Deployed Link
 
 Below is a link to the live site.
-* [See Live Site](#)
+* [See Live Site](https://ietoy.github.io/basic-portfolio/)
 
 
 ## Authors
 Ian Toy
 
 ## Acknowledgements
-Thanks to the important people and resources! Type real words here later.
+Thanks to my instructor Jerome, teaching assistants Kerwin and Mahisha, and my classmates Andres and Dexter for their help in making this website a reality!
